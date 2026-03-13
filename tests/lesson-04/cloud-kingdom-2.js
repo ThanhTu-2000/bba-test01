@@ -9,6 +9,8 @@ if (powerUp === "mushroom"){
     effect = "Mario is invincible!";
 }else if (powerUp === "none"){
     effect = "Mario is normal!";
+}else{
+    effect = "Unknown power-up"
 }
 
 console.log(effect);
