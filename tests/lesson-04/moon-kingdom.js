@@ -48,14 +48,14 @@ function printLeaderboard(player) {
 
     // In bảng xếp hạng
     sortedPlayers.forEach((player, index) => {
-        let medal = " ";
+        let medal = "  ";
 
         if (index === 0) {
-            medal = "G";
+            medal = "🥇";
         } else if (index === 1) {
-            medal = "S";
+            medal = "🥇";
         } else if (index === 2) {
-            medal = "B";
+            medal = "🥉";
         }
 
         console.log(`${medal} ${index + 1}. ${player.name} - ${player.score}`);
